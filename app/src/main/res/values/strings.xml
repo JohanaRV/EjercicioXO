@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EjercicioXO</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="jugar">Jugar X0</string>
+    <string name="name">Carlos Javier Cañénguez Martínez</string>
+    <string name="pg">Partidas ganadas:</string>
+    <string name="numero">99</string>
+    <string name="title_activity_jugadores_main">Jugadores</string>
+</resources>
