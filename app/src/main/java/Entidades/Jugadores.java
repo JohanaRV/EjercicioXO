@@ -1,6 +1,8 @@
 package Entidades;
 
-public class Jugadores {
+import java.io.Serializable;
+
+public class Jugadores implements Serializable {
     private int id;
     private String nombre;
     private int ganadas;

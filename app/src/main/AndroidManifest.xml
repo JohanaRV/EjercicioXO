@@ -9,10 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".XO"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ElegirJugador"
+            android:label="@string/title_activity_elegir_jugador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JugadoresEdicion"
+            android:label="@string/title_activity_jugadores_edicion"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".JugadoresMain"
             android:label="@string/title_activity_jugadores_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

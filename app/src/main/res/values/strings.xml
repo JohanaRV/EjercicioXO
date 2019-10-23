@@ -6,4 +6,9 @@
     <string name="pg">Partidas ganadas:</string>
     <string name="numero">99</string>
     <string name="title_activity_jugadores_main">Jugadores</string>
+    <string name="title_activity_jugadores_edicion">JugadoresEdicion</string>
+
+    <string name="nombre">Nombre del jugador</string>
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_elegir_jugador">Elegir un jugador</string>
 </resources>
