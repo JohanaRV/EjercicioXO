@@ -36,7 +36,6 @@ public class JugadoresMain extends AppCompatActivity implements AdapterView.OnIt
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        CreacionDosJugadores();
         rvJugadores = findViewById(R.id.rvJugadores);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         rvJugadores.setLayoutManager(layoutManager);
@@ -53,23 +52,6 @@ public class JugadoresMain extends AppCompatActivity implements AdapterView.OnIt
                 startActivityForResult(in, 1);
             }
         });
-    }
-
-    private void CreacionDosJugadores(){
-        if(lstJugadores.isEmpty()){
-            Jugadores j1 = new Jugadores();
-            j1.setId(1);
-            j1.setNombre("Player 1");
-            j1.setGanadas(0);
-
-            Jugadores j2 = new Jugadores();
-            j2.setId(2);
-            j2.setNombre("Player 2");
-            j2.setGanadas(0);
-
-            lstJugadores.add(j1);
-            lstJugadores.add(j2);
-        }
     }
 
     @Override

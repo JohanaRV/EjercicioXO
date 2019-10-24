@@ -11,4 +11,8 @@
     <string name="nombre">Nombre del jugador</string>
     <string name="guardar">Guardar</string>
     <string name="title_activity_elegir_jugador">Elegir un jugador</string>
+
+    <string name="unojuga">Un jugador</string>
+    <string name="dosjuga">Dos jugadores</string>
+    <string name="seleJuga">Seleccione la cantidad de jugadores</string>
 </resources>

@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         lstJugadores = new ArrayList<>();
+        CreacionDosJugadores();
     }
 
     public void OnClickJugadores(View v){
@@ -29,7 +30,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnClickJugar(View v){
-        Intent in = new Intent(this, ElegirJugador.class);
+        Intent in = new Intent(this, ModoJuego.class);
         startActivity(in);
+    }
+
+    private void CreacionDosJugadores(){
+        if(lstJugadores.isEmpty()){
+            Jugadores j1 = new Jugadores();
+            j1.setId(1);
+            j1.setNombre("Player 1");
+            j1.setGanadas(0);
+
+            Jugadores j2 = new Jugadores();
+            j2.setId(2);
+            j2.setNombre("Maquina");
+            j2.setGanadas(0);
+
+            lstJugadores.add(j1);
+            lstJugadores.add(j2);
+        }
     }
 }
